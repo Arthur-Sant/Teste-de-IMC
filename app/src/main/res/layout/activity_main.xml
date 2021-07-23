@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:background="@drawable/border">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura em metros"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="Peso"
+        android:background="@drawable/border"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="24dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso em quilos"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="O SEU IMC É:"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/imc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Calcular"
+        android:textSize="22dp">
+    </Button>
+
+</LinearLayout>
